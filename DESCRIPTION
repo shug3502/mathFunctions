@@ -1,0 +1,12 @@
+Package: mathFunctions
+Title: Provides Simple Math Functions for Science
+Version: 0.0.0.9000
+Authors@R: person("Jonathan", "Harrison", email = "jonathan.harrison@st-hughs.ox.ac.uk", role = c("aut", "cre"))
+Description: This is my first packages. It gives simple math functions that could even be used.
+Depends: R (>= 3.2.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: 
+    testthat
