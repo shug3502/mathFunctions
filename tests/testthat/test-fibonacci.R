@@ -8,11 +8,11 @@ test_that("fibonacci works", {
 })
 
 test_that('fibonacci outputs integers', {
-    expect_is(fibonacci(2),'integer')
+    expect_is(fibonacci(2),'numeric')
 })
 
 test_that("fibonacci works on strings", {
   person1 <- "jane"
   person2 <- "jill"
-  expect_equal(fibonacci(person1),person2)
+  expect_error(fibonacci(person1))
 })
